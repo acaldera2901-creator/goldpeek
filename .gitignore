@@ -1,28 +1,30 @@
 ```
-# Compiled/Binary files
-*.mq5c
+# Compiled and binary files
+*.mq5
 *.ex5
+*.o
+*.obj
 *.dll
 *.so
-*.dylib
+*.a
+*.out
 
-# Build/Output directories
-MQL5/Files/
-MQL5/Logs/
-MQL5/Terminal/
+# Dependencies
+MQL5/Libraries/
+MQL5/Include/
 
-# Editor/IDE files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
 
-# Logs
-*.log
-
-# Environment
-.env
-.env.local
-*.env.*
+# Build artifacts
+MQL5/Files/
+MQL5/Terminal/
 ```
