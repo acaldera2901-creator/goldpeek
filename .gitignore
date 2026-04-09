@@ -1,0 +1,28 @@
+```
+# Compiled/Binary files
+*.mq5c
+*.ex5
+*.dll
+*.so
+*.dylib
+
+# Build/Output directories
+MQL5/Files/
+MQL5/Logs/
+MQL5/Terminal/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+```
